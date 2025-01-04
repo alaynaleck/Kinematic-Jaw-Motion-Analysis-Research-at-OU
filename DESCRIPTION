@@ -1,0 +1,12 @@
+Package: JawMotionOU
+Type: Package
+Title: Jaw Motion Analysis OU
+Version: 0.1.0
+Author: Alayna Leck
+Maintainer: Alayna Leck <AlaynaLeck@gmail.com>
+Description: Functions developed for analyzing jaw utterance data from the University of Oklahoma
+    in conjunction with the MATLAB Sandbox.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2

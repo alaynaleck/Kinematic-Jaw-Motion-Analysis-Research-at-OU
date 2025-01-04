@@ -1,0 +1,4 @@
+# Handle line endings
+*.R text eol=lf
+
+
