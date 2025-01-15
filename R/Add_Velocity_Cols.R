@@ -33,7 +33,7 @@ Add_Velocity_Cols = function(instances) {
     # Rescale to [-1, 1]
     velMin = (min(df$Velocity, na.rm = TRUE))
     velMax = (max(df$Velocity, na.rm = TRUE))
-    df$VelocityRescaled = 2 * (df$Velocity - velMin) / (velMax-velMin) - 1
+    df$RescaledVelocity = 2 * (df$Velocity - velMin) / (velMax-velMin) - 1
 
     return(df)
   }

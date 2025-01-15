@@ -38,7 +38,7 @@ Add_Time_Cols = function(instances) {
     }
 
     Centered[lowest] <- 0 # Set the time of the lowest point to 0
-    df$CenteredTime <- Centered # Reassign the list to a new Centered Time column
+    df$RecenteredTime <- Centered # Reassign the list to a new Centered Time column
     return(df)
   }
 

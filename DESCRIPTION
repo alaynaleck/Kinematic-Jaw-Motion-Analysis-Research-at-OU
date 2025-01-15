@@ -7,6 +7,9 @@ Maintainer: Alayna Leck <AlaynaLeck@gmail.com>
 Description: Functions developed for analyzing jaw utterance data from the University of Oklahoma
     in conjunction with the MATLAB Sandbox.
 License: MIT + file LICENSE
+Imports: 
+  ggplot2,
+  rlang
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
